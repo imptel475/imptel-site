@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IMPTEL - Instituto Médio Privado de Tecnologias</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #002c5f;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #014080;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 2rem;
+    }
+    .login-box {
+      background-color: white;
+      max-width: 400px;
+      margin: auto;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .login-box h2 {
+      margin-bottom: 1rem;
+    }
+    .login-box input {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .login-box button {
+      width: 100%;
+      padding: 0.7rem;
+      background-color: #014080;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #002c5f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Instituto Médio Privado de Tecnologias (IMPTEL)</h1>
+  </header>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#cursos">Cursos</a>
+    <a href="#contacto">Contacto</a>
+    <a href="estudantes.html">Área do Estudante</a>
+  </nav>
+  <div class="container">
+    <div class="login-box">
+      <h2>Área do Estudante</h2>
+      <input type="text" placeholder="Número de Estudante" />
+      <input type="password" placeholder="Senha" />
+      <button onclick="login()">Entrar</button>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 IMPTEL - Todos os direitos reservados.
+  </footer>
+
+  <script>
+    function login() {
+      alert("Login simulado! Em breve esta área será conectada à base de dados.");
+    }
+  </script>
+</body>
+</html>
